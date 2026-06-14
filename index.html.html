@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทำความรู้จักสาย LAN มีกี่ประเภท? - Extreme IT Content</title>
+    <link rel="stylesheet" href="
+background.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo">IT-Knowledge Hub</div>
+            <nav class="nav-links">
+                <a href="#">หน้าแรก</a>
+                <a href="#">บทความเครือข่าย</a>
+                <a href="#">เกี่ยวกับเรา</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <article>
+            <div class="article-header">
+                <span class="category-badge">Network & Infrastructure</span>
+                <h1>ทำความรู้จักสาย LAN มีกี่ประเภท? และทำไมเราต้องเรียงสีให้ถูกต้อง</h1>
+                <div class="meta-info">
+                    <span>ผู้เขียน: จากคลิป Extreme IT</span> | <span>หมวดหมู่: สารสนเทศ (ปวช. 2)</span>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>สาย LAN คืออะไร?</h2>
+                <p>สาย LAN (Local Area Network) หรือสาย UTP เป็นตัวกลางสำคัญในการเชื่อมต่อระบบเครือข่ายอินเทอร์เน็ตระหว่างคอมพิวเตอร์, เราเตอร์, หรือสวิตช์ แม้ว่าปัจจุบันจะมีระบบ Wi-Fi ที่สะดวกสบาย แต่การเชื่อมต่อผ่านสาย LAN ก็ยังคงให้ความเสถียร ความเร็ว และความหน่วง (Latency) ที่ต่ำที่สุด เหมาะสำหรับการเล่นเกม, การสตรีมมิง และการรับส่งข้อมูลขนาดใหญ่ในองค์กร</p>
+            </div>
+
+            <div class="content-section">
+                <h2>ประเภทของสาย LAN (Categories)</h2>
+                <p>สาย LAN ถูกแบ่งออกเป็นระดับหรือที่เรียกว่า "Category" (ย่อว่า Cat) ตามความสามารถในการรองรับความเร็ว (Bandwidth) และการส่งข้อมูล ยิ่งเลขสูงยิ่งมีความเร็วและประสิทธิภาพที่ดียิ่งขึ้น:</p>
+                
+                <div class="lan-grid">
+                    <div class="lan-card">
+                        <div class="lan-title">Cat 5e</div>
+                        <div class="lan-details">
+                            <strong>ความเร็วสูงสุด:</strong> 1 Gbps (1,000 Mbps)<br>
+                            <strong>Bandwidth:</strong> 100 MHz<br>
+                            <strong>การใช้งาน:</strong> เหมาะสำหรับใช้งานทั่วไปภายในบ้านหรืออินเทอร์เน็ตแพลตฟอร์มพื้นฐาน
+                        </div>
+                    </div>
+                    <div class="lan-card">
+                        <div class="lan-title">Cat 6</div>
+                        <div class="lan-details">
+                            <strong>ความเร็วสูงสุด:</strong> 10 Gbps (ระยะไม่เกิน 55 เมตร)<br>
+                            <strong>Bandwidth:</strong> 250 MHz<br>
+                            <strong>การใช้งาน:</strong> มีแกนพลาสติกตรงกลางลดสัญญาณรบกวน เหมาะกับออฟฟิศและระบบเน็ตเวิร์กที่ต้องการความเสถียร
+                        </div>
+                    </div>
+                    <div class="lan-card">
+                        <div class="lan-title">Cat 6A</div>
+                        <div class="lan-details">
+                            <strong>ความเร็วสูงสุด:</strong> 10 Gbps (เต็มระยะ 100 เมตร)<br>
+                            <strong>Bandwidth:</strong> 500 MHz<br>
+                            <strong>การใช้งาน:</strong> รองรับการส่งข้อมูลดาต้าเซ็นเตอร์ มีฉนวนป้องกันสัญญาณรบกวนได้ดียิ่งขึ้น
+                        </div>
+                    </div>
+                    <div class="lan-card">
+                        <div class="lan-title">Cat 7 / Cat 8</div>
+                        <div class="lan-details">
+                            <strong>ความเร็วสูงสุด:</strong> 25 - 40 Gbps<br>
+                            <strong>Bandwidth:</strong> 600 - 2000 MHz<br>
+                            <strong>การใช้งาน:</strong> สายเกรดพรีเมียม มีฉนวนหุ้มหนาแน่น (Shielded) สำหรับระบบเซิร์ฟเวอร์เฉพาะทาง
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>ทำไมต้องเรียงสีสายแลน?</h2>
+                <p>ภายในสาย LAN 1 เส้น จะมีสายทองแดงเส้นเล็กๆ พันตีเกลียวกันอยู่ทั้งหมด 8 เส้น (4 คู่สี) เหตุผลที่เราต้องทำการปอกสายและเรียงตามมาตรฐาน เช่น มาตรฐาน <strong>T568B</strong> ก็เพื่อให้สัญญาณไฟฟ้าเดินทางได้อย่างถูกต้องตามวงจรขั้วรับ-ส่ง (Tx/Rx) ของพอร์ต RJ45 และอุปกรณ์ปลายทาง หากสลับสีมั่ว สัญญาณจะเกิดการกวนกัน (Crosstalk) หรืออินเทอร์เน็ตอาจจะวิ่งไม่เต็มสปีด หรือเชื่อมต่อไม่ติดเลย</p>
+                
+                <div class="color-sequence">
+                    <strong>การเรียงสีมาตรฐาน T568B (ที่นิยมใช้มากที่สุด):</strong>
+                    <ol class="color-list">
+                        <li class="color-orange-white">ขาว-ส้ม</li>
+                        <li class="color-orange">ส้ม</li>
+                        <li class="color-green-white">ขาว-เขียว</li>
+                        <li class="color-blue">น้ำเงิน</li>
+                        <li class="color-blue-white">ขาว-น้ำเงิน</li>
+                        <li class="color-green">เขียว</li>
+                        <li class="color-brown-white">ขาว-น้ำตาล</li>
+                        <li class="color-brown">น้ำตาล</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>บทสรุปจาก Extreme IT</h2>
+                <p>การเลือกซื้อสาย LAN ควรเลือกให้เหมาะสมกับความเร็วของแพ็คเกจอินเทอร์เน็ตและอุปกรณ์ของเรา เช่น หากเน็ตที่บ้านมีความเร็ว 1,000 Mbps การเลือกใช้สาย Cat 5e หรือ Cat 6 ก็เพียงพอต่อการใช้งานแล้ว และที่สำคัญการเข้าหัวสาย LAN ต้องมีความละเอียด ประณีต และเรียงสีให้ถูกต้องตามมาตรฐานเพื่อให้ได้ความเร็วอินเทอร์เน็ตที่เต็มประสิทธิภาพที่สุดครับ</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 พัฒนาเพื่อการศึกษา - วิชาการพัฒนาเว็บแอปพลิเคชัน ปวช. 2 สารสนเทศ</p>
+    </footer>
+
+</body>
+</html>
+
